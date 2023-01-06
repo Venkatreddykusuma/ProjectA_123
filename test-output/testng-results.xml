@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="7" passed="7" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[tc001 is executed successful]]>
+    </line>
+    <line>
+      <![CDATA[tc002 is executed successful]]>
+    </line>
+    <line>
+      <![CDATA[tc003 is executed successful]]>
+    </line>
+    <line>
+      <![CDATA[Testlogout successfull]]>
+    </line>
+    <line>
+      <![CDATA[tc004 is executed successfull]]>
+    </line>
+    <line>
+      <![CDATA[tc005 is executed successfull]]>
+    </line>
+    <line>
+      <![CDATA[tc006 is executed successfull]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2023-01-04T12:42:04 IST" name="default suite" finished-at="2023-01-04T12:42:04 IST" duration-ms="213">
+    <groups>
+    </groups>
+    <test started-at="2023-01-04T12:42:04 IST" name="testA" finished-at="2023-01-04T12:42:04 IST" duration-ms="213">
+      <class name="p2.ClassB">
+        <test-method signature="Testlogout()[pri:0, instance:p2.ClassB@505fc5a4]" started-at="2023-01-04T12:42:04 IST" name="Testlogout" finished-at="2023-01-04T12:42:04 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Testlogout successfull]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Testlogout -->
+        <test-method signature="tC004()[pri:0, instance:p2.ClassB@505fc5a4]" started-at="2023-01-04T12:42:04 IST" name="tC004" finished-at="2023-01-04T12:42:04 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[tc004 is executed successfull]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tC004 -->
+        <test-method signature="tC005()[pri:0, instance:p2.ClassB@505fc5a4]" started-at="2023-01-04T12:42:04 IST" name="tC005" finished-at="2023-01-04T12:42:04 IST" duration-ms="6" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[tc005 is executed successfull]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tC005 -->
+        <test-method signature="tC006()[pri:0, instance:p2.ClassB@505fc5a4]" started-at="2023-01-04T12:42:04 IST" name="tC006" finished-at="2023-01-04T12:42:04 IST" duration-ms="10" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[tc006 is executed successfull]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tC006 -->
+      </class> <!-- p2.ClassB -->
+      <class name="p1.ClassA">
+        <test-method signature="tC001()[pri:0, instance:p1.ClassA@1e683a3e]" started-at="2023-01-04T12:42:04 IST" name="tC001" finished-at="2023-01-04T12:42:04 IST" duration-ms="22" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[tc001 is executed successful]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tC001 -->
+        <test-method signature="tC002()[pri:0, instance:p1.ClassA@1e683a3e]" started-at="2023-01-04T12:42:04 IST" name="tC002" finished-at="2023-01-04T12:42:04 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[tc002 is executed successful]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tC002 -->
+        <test-method signature="tC003()[pri:0, instance:p1.ClassA@1e683a3e]" started-at="2023-01-04T12:42:04 IST" name="tC003" finished-at="2023-01-04T12:42:04 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[tc003 is executed successful]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tC003 -->
+      </class> <!-- p1.ClassA -->
+    </test> <!-- testA -->
+  </suite> <!-- default suite -->
+</testng-results>
